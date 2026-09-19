@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Calculator Outer Body with rounded corners centered in 108dp (66dp area: 26 to 82) -->
+    <path
+        android:pathData="M35,25 L73,25 A8,8 0 0,1 81,33 L81,75 A8,8 0 0,1 73,83 L35,83 A8,8 0 0,1 27,75 L27,33 A8,8 0 0,1 35,25 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="27"
+                android:startY="25"
+                android:endX="81"
+                android:endY="83"
+                android:type="linear">
+                <item android:color="#2C303E" android:offset="0.0" />
+                <item android:color="#1A1C25" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Outer rim highlight -->
+    <path
+        android:strokeWidth="1.2"
+        android:pathData="M35,25 L73,25 A8,8 0 0,1 81,33 L81,75 A8,8 0 0,1 73,83 L35,83 A8,8 0 0,1 27,75 L27,33 A8,8 0 0,1 35,25 Z">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="27"
+                android:startY="25"
+                android:endX="81"
+                android:endY="83"
+                android:type="linear">
+                <item android:color="#80E5B96F" android:offset="0.0" />
+                <item android:color="#1AFFFFFF" android:offset="0.5" />
+                <item android:color="#33E5B96F" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Screen Display -->
+    <path
+        android:pathData="M33,31 L75,31 A4,4 0 0,1 79,35 L79,43 A4,4 0 0,1 75,47 L33,47 A4,4 0 0,1 29,43 L29,35 A4,4 0 0,1 33,31 Z"
+        android:fillColor="#0D0F14" />
+    <!-- Screen Accent digits indicator -->
+    <path
+        android:pathData="M66,37 L75,37"
+        android:strokeWidth="2.2"
+        android:strokeColor="#E5B96F"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M54,41 L75,41"
+        android:strokeWidth="2"
+        android:strokeColor="#F7DF94"
+        android:strokeLineCap="round" />
+    <!-- Grid of tactile buttons -->
+    <!-- Row 1: C, +/-, %, / -->
+    <path
+        android:pathData="M33,52 A2.5,2.5 0 1,1 33,57 A2.5,2.5 0 1,1 33,52 M45,52 A2.5,2.5 0 1,1 45,57 A2.5,2.5 0 1,1 45,52 M57,52 A2.5,2.5 0 1,1 57,57 A2.5,2.5 0 1,1 57,52"
+        android:fillColor="#454A5C" />
+    <path
+        android:pathData="M69,52 A2.5,2.5 0 1,1 69,57 A2.5,2.5 0 1,1 69,52"
+        android:fillColor="#D89A32" />
+
+    <!-- Row 2: 7, 8, 9, * -->
+    <path
+        android:pathData="M33,60 A2.5,2.5 0 1,1 33,65 A2.5,2.5 0 1,1 33,60 M45,60 A2.5,2.5 0 1,1 45,65 A2.5,2.5 0 1,1 45,60 M57,60 A2.5,2.5 0 1,1 57,65 A2.5,2.5 0 1,1 57,60"
+        android:fillColor="#3A3F50" />
+    <path
+        android:pathData="M69,60 A2.5,2.5 0 1,1 69,65 A2.5,2.5 0 1,1 69,60"
+        android:fillColor="#E5B96F" />
+
+    <!-- Row 3: 4, 5, 6, - -->
+    <path
+        android:pathData="M33,68 A2.5,2.5 0 1,1 33,73 A2.5,2.5 0 1,1 33,68 M45,68 A2.5,2.5 0 1,1 45,73 A2.5,2.5 0 1,1 45,68 M57,68 A2.5,2.5 0 1,1 57,73 A2.5,2.5 0 1,1 57,68"
+        android:fillColor="#3A3F50" />
+    <path
+        android:pathData="M69,68 A2.5,2.5 0 1,1 69,73 A2.5,2.5 0 1,1 69,68"
+        android:fillColor="#E5B96F" />
+
+    <!-- Equals button highlight in bottom right -->
+    <path
+        android:pathData="M66,76 L75,76"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFC857"
+        android:strokeLineCap="round" />
+</vector>
